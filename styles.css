@@ -1,0 +1,15 @@
+h2{
+  font-size: 2em;
+}
+
+body{
+  font-size: 20px;
+}
+
+ul{
+  color: black;
+}
+
+li{
+  color: black; list-style-type:decimal ;
+}
