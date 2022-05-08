@@ -1,0 +1,20 @@
+.myname{
+  color: #3B3D3D;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold ;
+  font-style: oblique;
+  ;
+}
+
+.myphoto{
+  border-radius: 100%;
+  border-style:double;
+  border-color: black;
+}
+
+body{
+  /* background-color: black; */
+  background-image: -webkit-linear-gradient(#24C44B, #013b10);
+  background-image: image();
+}
+
