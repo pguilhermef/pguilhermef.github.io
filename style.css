@@ -1,9 +1,26 @@
+.boasvindas{
+  display: flex;
+  justify-content: center;
+}
+
 .myname{
   color: #3B3D3D;
   font-family: 'Courier New', Courier, monospace;
   font-weight:bold ;
   font-style: oblique;
   ;
+}
+
+.indice{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.indice li {
+  list-style:none ;
+  
 }
 
 .myphoto{
