@@ -1,0 +1,37 @@
+.boasvindas{
+  display: flex;
+  justify-content: center;
+}
+
+.myname{
+  color: #3B3D3D;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold ;
+  font-style: oblique;
+  ;
+}
+
+.indice{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.indice li {
+  list-style:none ;
+  
+}
+
+.myphoto{
+  border-radius: 100%;
+  border-style:double;
+  border-color: black;
+}
+
+body{
+  /* background-color: black; */
+  background-image: -webkit-linear-gradient(#24C44B, #013b10);
+  background-image: image();
+}
+
