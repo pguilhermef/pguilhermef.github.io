@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .boasvindas{
   font-size: 2em;
   display: flex;
@@ -13,8 +18,9 @@
 }
 
 .indice{
-  display: flex;
-  justify-content: center;
+  position: fixed;
+  width: 100%;
+  display: inline-flex;
   background-color: #000000;
   padding: 10px;
 }
@@ -29,11 +35,26 @@
   border-radius: 100%;
   border-style:double;
   border-color: black;
+  
 }
+
 
 body{
   /* background-color: black; */
   background-image: -webkit-linear-gradient(#24C44B, #013b10);
   background-image: image();
 }
+
+#sobremim{
+  text-align: center;
+  margin: 100px 20px 20px 20px;
+}
+
+#bio{
+  margin: 5%;
+  display: inline-block;
+  text-align:left ;
+}
+
+
 
