@@ -3,10 +3,47 @@
   padding: 0;
 }
 
+#indice{
+  align-items: center;
+}
+
+.indice{
+  position: fixed;
+  width: 100%;
+  display: inline-flex;
+  background-color: #000000;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.indice li {
+  font-style: italic;
+  list-style: none ;
+  margin: 10px;
+}
+
+.indice li a{
+  color: #24C44B;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  text-decoration: none;
+  align-items: center;
+  margin: 10px;
+}
+
+
 .boasvindas{
   font-size: 2em;
-  display: flex;
   justify-content: center;
+  padding: 75px
+}
+
+
+.myphoto{
+  border-radius: 100%;
+  border-style:double;
+  border-color: black;
+  
 }
 
 .myname{
@@ -16,28 +53,6 @@
   font-style: oblique;
   ;
 }
-
-.indice{
-  position: fixed;
-  width: 100%;
-  display: inline-flex;
-  background-color: #000000;
-  padding: 10px;
-}
-
-.indice li {
-  font-style: italic;
-  list-style:none ;
-  margin: 10px;
-}
-
-.myphoto{
-  border-radius: 100%;
-  border-style:double;
-  border-color: black;
-  
-}
-
 
 body{
   /* background-color: black; */
