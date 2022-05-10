@@ -4,11 +4,8 @@
 }
 
 #indice{
-  align-items: center;
-}
-
-.indice{
   position: fixed;
+  align-items: flex-start ;
   width: 100%;
   display: inline-flex;
   background-color: #000000;
@@ -27,7 +24,6 @@
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
   text-decoration: none;
-  align-items: center;
   margin: 10px;
 }
 
